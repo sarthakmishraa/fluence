@@ -1,0 +1,173 @@
+/*
+Primary: #000000 
+Secondary: #5271ff
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    margin: 0;
+    font-family: Open Sans;
+    background-color: lightgoldenrodyellow;
+    color: #5271ff;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Navbar styling */
+
+.Navbar {
+    user-select: none;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    font-size: x-large;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.NavbarLogo {
+    height: 100px;
+    cursor: pointer;
+}
+
+.Navbar a {
+    color: black;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.Navbar a:hover {
+    /* text-shadow: 0 0 2px #5271ff; */
+    padding: 10px;
+    font-size: x-large;
+    border-radius: 10px;
+    color: lightgoldenrodyellow;
+    background-color: #5271ff;
+    transition: 0.2s;
+}
+
+.NavbarRight {
+    margin-top: 75px;
+}
+
+.NavbarRight button {
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    color: lightgoldenrodyellow;
+    background-color: #5271ff;
+    cursor: pointer;
+}
+
+.NavbarRight button:hover {
+    color: #5271ff;
+    background-color: lightgoldenrodyellow;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Home page styling */
+
+.HomeContentHeading {
+    color: #5271ff;
+}
+
+.HomeContent {
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.ModelButtons {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ModelButton{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-left: 20px;
+    color: lightgoldenrodyellow;
+    background-color: #5271ff;
+    cursor: pointer;
+}
+
+.ModelButton:hover {
+    color: #5271ff;
+    background-color: lightgoldenrodyellow;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* About page styling */
+
+.About {
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProfilePic1, .ProfilePic2 {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25%;
+    margin: 20px auto;
+    border: 3px solid #5271ff;
+}
+
+.ProfilePic1 {
+    background-image: url('pratiksha.png');
+}
+
+.ProfilePic2 {
+    background-image: url('sarthak.jpg');
+}
+
+.ProfileLinks li {
+    list-style-type: none;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.ProfileLinks a {
+    text-decoration: none;
+}
+
+/* Footer styling */
+
+.Footer {
+    border-top: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FooterName {
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FooterNameP1 {
+    color: black;
+}
+
+.FooterContent1 {
+    padding-right: 50px;
+}
