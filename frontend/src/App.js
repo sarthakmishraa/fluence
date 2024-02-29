@@ -6,6 +6,7 @@ import Home from './Home';
 import About from './About';
 import Visualisations from './Visualisations';
 import Methodology from './Methodology';
+import Model1 from './Model1';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
@@ -21,7 +22,9 @@ function App() {
 
           <Route path="/methodology" element={<Methodology/>}></Route>
 
-          <Route path='/Visualisations' element={<Visualisations/>}></Route>
+          <Route path='/visualisations' element={<Visualisations/>}></Route>
+
+          <Route path='/model1' element={<Model1/>}></Route>
         </Routes>
         <Footer></Footer>
       </div>

@@ -1,5 +1,7 @@
 // Home.js
 
+import { Link } from 'react-router-dom';
+
 function Home() {
   return (
     <div className="Home">
@@ -9,7 +11,7 @@ function Home() {
       </div>
       <h2>Which model do you want to use?</h2>
       <div className="ModelButtons">
-        <button className="ModelButton">Model 1</button>
+        <Link to="/model1"><button className="ModelButton">Model 1</button></Link>
         <button className="ModelButton">Model 2</button>
         <button className="ModelButton">Model 3</button>
       </div>
