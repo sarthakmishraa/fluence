@@ -176,20 +176,6 @@ code {
     text-align: center;
 }
 
-.RadioButtonLabel {
-    font-size: 25px;
-    margin-right: 15px;
-}
-
-.RadioButtonLabel:hover {
-    cursor: pointer;
-}
-
-.RadioButton {
-    width: 30px;
-    height: 30px;
-}
-
 /* Footer styling */
 
 .Footer {
