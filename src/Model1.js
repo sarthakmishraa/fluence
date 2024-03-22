@@ -97,6 +97,7 @@ function Model1() {
 
   return (
     <div className="Model1">
+      <h1>H1N1 Vaccine Intake Prediction</h1>
 
       <form className="ModelInputs" onSubmit={(e) => {handleSubmit(e)}}>
         <h3>Answers these questions and hit the Predict button</h3>

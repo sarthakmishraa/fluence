@@ -29,11 +29,6 @@ code {
     justify-content: space-between;
 }
 
-.NavbarLogo {
-    height: 100px;
-    cursor: pointer;
-}
-
 .Navbar a {
     color: black;
     margin-left: 30px;
@@ -48,6 +43,16 @@ code {
     color: lightgoldenrodyellow;
     background-color: #5271ff;
     transition: 0.2s;
+}
+
+.NavbarLeft {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.NavbarLeftItems {
+    margin-top: 50px;
 }
 
 .NavbarRight {
@@ -75,11 +80,12 @@ code {
 
 .HomeContentHeading {
     color: #5271ff;
+    font-size: xx-large;
 }
 
 .HomeContent {
     color: black;
-    font-size: larger;
+    font-size: x-large;
     font-weight: 600;
 }
 
@@ -139,11 +145,11 @@ code {
 }
 
 .ProfilePic1 {
-    background-image: url('pratiksha.png');
+    background-image: url('media/pratiksha.png');
 }
 
 .ProfilePic2 {
-    background-image: url('sarthak.jpg');
+    background-image: url('media/sarthak.jpg');
 }
 
 .ProfileLinks li {
@@ -193,6 +199,91 @@ code {
     text-align: center;
 }
 
+/* Visualization Styling */
+
+.VisualisationsHeading {
+    text-align: center;
+    font-size: xx-large;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.VisualizationContentHeading {
+    color: black;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.VisualizationContent {
+    color: black;
+    font-size: large;
+    font-weight: 600;
+}
+
+.VisualizationContentSubHeading {
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.H1N1_graph1, .H1N1_graph2, .H1N1_graph3, .H1N1_graph4, .H1N1_graph5, .H1N1_graph6, .H1N1_graph7, .H1N1_graph8, .H1N1_graph9, .H1N1_graph10 {
+    width: 960px;
+    height: 400px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.H1N1_graph1 {
+    background-image: url('media/levels_of_concern.png');
+}
+
+.H1N1_graph2 {
+    background-image: url('media/opinions.png');
+}
+
+.H1N1_graph3 {
+    background-image: url('media/h1n1_age_group.png');
+}
+
+.H1N1_graph4 {
+    background-image: url('media/h1n1_emp_status.png');
+}
+
+.H1N1_graph5 {
+    background-image: url('media/h1n1_education.png');
+}
+
+.H1N1_graph6 {
+    background-image: url('media/h1n1_income.png');
+}
+
+.H1N1_graph7 {
+    background-image: url('media/seasonal_age.png');
+}
+
+.H1N1_graph8 {
+    background-image: url('media/seasonal_emp_status.png');
+}
+
+.H1N1_graph9 {
+    background-image: url('media/seasonal_education.png');
+}
+
+.H1N1_graph10 {
+    background-image: url('media/seasonal_income.png');
+}
+
 /* Footer styling */
 
 .Footer {
@@ -215,4 +306,13 @@ code {
 
 .FooterContent1 {
     padding-right: 50px;
+}
+
+.FooterImage {
+    background-image: url('media/Vaccine.webp');
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }

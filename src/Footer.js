@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="Footer">
       <div className='FooterName'>
-        <h1 className='FooterNameP1'>flu.</h1>
+        <h1 className='FooterNameP1'>flu</h1>
         <h1 className='FooterNameP2'>ence</h1>
       </div>
       
@@ -27,6 +27,7 @@ function Footer() {
           <li>Offers</li>
         </ul>
       </div>
+      <div className="FooterImage"></div>
     </div>
   );
 }

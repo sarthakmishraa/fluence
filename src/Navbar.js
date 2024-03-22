@@ -2,14 +2,16 @@
 
 import React from "react";
 import { Link } from 'react-router-dom';
-import logo from './logo.png';
 
 function Navbar() {
   return (
     <div className="Navbar">
       <div className="NavbarLeft">
-        <nav>
-          <img className="NavbarLogo" src={logo} alt="Fluence logo"/>
+        <div className='FooterName'>
+          <h1 className='FooterNameP1'>flu</h1>
+          <h1 className='FooterNameP2'>ence</h1>
+        </div>
+        <nav className="NavbarLeftItems">
           <Link to="/">Home</Link>
           <Link to="/visualisations">Visualisations</Link>
           <Link to="/methodology">Methodology</Link>
