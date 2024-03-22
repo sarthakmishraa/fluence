@@ -102,89 +102,89 @@ function Model1() {
         <h3>Answers these questions and hit the Predict button</h3>
 
         <div className='ModelInput'>
-          <h3>opinion_seas_risk : What do you think is your risk of getting sick with the seasonal flu without the vaccine?</h3>
+          <h3>What do you think is your risk of getting sick with the seasonal flu without the vaccine?</h3>
           <div className='RadioButtons'>
-            <label><input className='RadioButton' type='radio' value = '1' name='opinion_seas_risk' onChange={(event) => onValueChange1(3, event)} checked={selectedOption1 === '1'}></input>1:Very Low</label>
+            <label><input className='RadioButton' type='radio' value = '1' name='opinion_seas_risk' onChange={(event) => onValueChange1(3, event)} checked={selectedOption1 === '1'}></input>Very Low</label>
 
-            <label><input className='RadioButton' type='radio' value = '2' name='opinion_seas_risk' onChange={(event) => onValueChange1(3, event)} checked={selectedOption1 === '2'}></input>2:Somewhat low</label>
+            <label><input className='RadioButton' type='radio' value = '2' name='opinion_seas_risk' onChange={(event) => onValueChange1(3, event)} checked={selectedOption1 === '2'}></input>Somewhat low</label>
             
-            <label><input className='RadioButton' type='radio' value = '3' name='opinion_seas_risk' onChange={(event) => onValueChange1(3, event)} checked={selectedOption1 === '3'}></input>3:Don't know</label>
+            <label><input className='RadioButton' type='radio' value = '3' name='opinion_seas_risk' onChange={(event) => onValueChange1(3, event)} checked={selectedOption1 === '3'}></input>Don't know</label>
 
-            <label><input className='RadioButton' type='radio' value = '4' name='opinion_seas_risk' onChange={(event) => onValueChange1(3, event)} checked={selectedOption1 === '4'}></input>4:Somewhat high</label>
+            <label><input className='RadioButton' type='radio' value = '4' name='opinion_seas_risk' onChange={(event) => onValueChange1(3, event)} checked={selectedOption1 === '4'}></input>Somewhat high</label>
 
-            <label><input className='RadioButton' type='radio' value = '5' name='opinion_seas_risk' onChange={(event) => onValueChange1(3, event)} checked={selectedOption1 === '5'}></input>5:Very High</label>
+            <label><input className='RadioButton' type='radio' value = '5' name='opinion_seas_risk' onChange={(event) => onValueChange1(3, event)} checked={selectedOption1 === '5'}></input>Very High</label>
           </div>
         </div>
 
         <div className='ModelInput'>
-          <h3>doctor_recc_seasonal : Has a doctor recommended the seasonal flu vaccine to you?</h3>
+          <h3>Has a doctor recommended the seasonal flu vaccine to you?</h3>
           <div className='RadioButtons'>
-            <label><input className='RadioButton' type='radio' value = '0' name='doctor_recc_seasonal' onChange={(event) => onValueChange2(4, event)} checked={selectedOption2 === '0'}></input>1:No</label>
+            <label><input className='RadioButton' type='radio' value = '0' name='doctor_recc_seasonal' onChange={(event) => onValueChange2(4, event)} checked={selectedOption2 === '0'}></input>No</label>
 
-            <label><input className='RadioButton' type='radio' value = '1' name='doctor_recc_seasonal' onChange={(event) => onValueChange2(4, event)} checked={selectedOption2 === '1'}></input>2:Yes</label>
+            <label><input className='RadioButton' type='radio' value = '1' name='doctor_recc_seasonal' onChange={(event) => onValueChange2(4, event)} checked={selectedOption2 === '1'}></input>Yes</label>
           </div>
         </div>
 
         <div className='ModelInput'>
-          <h3>opinion_seas_vacc_effective: How effective do you believe the seasonal flu vaccine is?</h3>
+          <h3>How effective do you believe the seasonal flu vaccine is?</h3>
           <div className='RadioButtons'>
-            <label><input className='RadioButton' type='radio' value = '1' name='opinion_seas_vacc_effective' onChange={(event) => onValueChange3(5, event)} checked={selectedOption3 === '1'}></input>1:Very Low</label>
+            <label><input className='RadioButton' type='radio' value = '1' name='opinion_seas_vacc_effective' onChange={(event) => onValueChange3(5, event)} checked={selectedOption3 === '1'}></input>Very Low</label>
 
-            <label><input className='RadioButton' type='radio' value = '2' name='opinion_seas_vacc_effective' onChange={(event) => onValueChange3(5, event)} checked={selectedOption3 === '2'}></input>2:Somewhat low</label>
+            <label><input className='RadioButton' type='radio' value = '2' name='opinion_seas_vacc_effective' onChange={(event) => onValueChange3(5, event)} checked={selectedOption3 === '2'}></input>Somewhat low</label>
             
-            <label><input className='RadioButton' type='radio' value = '3' name='opinion_seas_vacc_effective' onChange={(event) => onValueChange3(5, event)} checked={selectedOption3 === '3'}></input>3:Don't know</label>
+            <label><input className='RadioButton' type='radio' value = '3' name='opinion_seas_vacc_effective' onChange={(event) => onValueChange3(5, event)} checked={selectedOption3 === '3'}></input>Don't know</label>
 
-            <label><input className='RadioButton' type='radio' value = '4' name='opinion_seas_vacc_effective' onChange={(event) => onValueChange3(5, event)} checked={selectedOption3 === '4'}></input>4:Somewhat high</label>
+            <label><input className='RadioButton' type='radio' value = '4' name='opinion_seas_vacc_effective' onChange={(event) => onValueChange3(5, event)} checked={selectedOption3 === '4'}></input>Somewhat high</label>
 
-            <label><input className='RadioButton' type='radio' value = '5' name='opinion_seas_vacc_effective' onChange={(event) => onValueChange3(5, event)} checked={selectedOption3 === '5'}></input>5:Very High</label>
+            <label><input className='RadioButton' type='radio' value = '5' name='opinion_seas_vacc_effective' onChange={(event) => onValueChange3(5, event)} checked={selectedOption3 === '5'}></input>Very High</label>
           </div>
         </div>
 
         <div className='ModelInput'>
-          <h3>opinion_h1n1_risk: What do you think is your risk of getting sick with H1N1 flu without the vaccine?</h3>
+          <h3>What do you think is your risk of getting sick with H1N1 flu without the vaccine?</h3>
           <div className='RadioButtons'>
-            <label><input className='RadioButton' type='radio' value = '1' name='opinion_h1n1_risk' onChange={(event) => onValueChange4(1, event)} checked={selectedOption4 === '1'}></input>1:Very Low</label>
+            <label><input className='RadioButton' type='radio' value = '1' name='opinion_h1n1_risk' onChange={(event) => onValueChange4(1, event)} checked={selectedOption4 === '1'}></input>Very Low</label>
 
-            <label><input className='RadioButton' type='radio' value = '2' name='opinion_h1n1_risk' onChange={(event) => onValueChange4(1, event)} checked={selectedOption4 === '2'}></input>2:Somewhat low</label>
+            <label><input className='RadioButton' type='radio' value = '2' name='opinion_h1n1_risk' onChange={(event) => onValueChange4(1, event)} checked={selectedOption4 === '2'}></input>Somewhat low</label>
             
-            <label><input className='RadioButton' type='radio' value = '3' name='opinion_h1n1_risk' onChange={(event) => onValueChange4(1, event)} checked={selectedOption4 === '3'}></input>3:Don't know</label>
+            <label><input className='RadioButton' type='radio' value = '3' name='opinion_h1n1_risk' onChange={(event) => onValueChange4(1, event)} checked={selectedOption4 === '3'}></input>Don't know</label>
             
-            <label><input className='RadioButton' type='radio' value = '4' name='opinion_h1n1_risk' onChange={(event) => onValueChange4(1, event)} checked={selectedOption4 === '4'}></input>4:Somewhat high</label>
+            <label><input className='RadioButton' type='radio' value = '4' name='opinion_h1n1_risk' onChange={(event) => onValueChange4(1, event)} checked={selectedOption4 === '4'}></input>Somewhat high</label>
             
-            <label><input className='RadioButton' type='radio' value = '5' name='opinion_h1n1_risk' onChange={(event) => onValueChange4(1, event)} checked={selectedOption4 === '5'}></input>5:Very High</label>
+            <label><input className='RadioButton' type='radio' value = '5' name='opinion_h1n1_risk' onChange={(event) => onValueChange4(1, event)} checked={selectedOption4 === '5'}></input>Very High</label>
           </div>
         </div>
 
         <div className='ModelInput'>
-          <h3>opinion_h1n1_vacc_effective: How effective do you believe the H1N1 vaccine is?</h3>
+          <h3>How effective do you believe the H1N1 vaccine is?</h3>
           <div className='RadioButtons'>            
-            <label><input className='RadioButton' type='radio' value = '1' name='opinion_h1n1_vacc_effective' onChange={(event) => onValueChange5(2, event)} checked={selectedOption5 === '1'}></input>1:Very Low</label>
+            <label><input className='RadioButton' type='radio' value = '1' name='opinion_h1n1_vacc_effective' onChange={(event) => onValueChange5(2, event)} checked={selectedOption5 === '1'}></input>Very Low</label>
             
-            <label><input className='RadioButton' type='radio' value = '2' name='opinion_h1n1_vacc_effective' onChange={(event) => onValueChange5(2, event)} checked={selectedOption5 === '2'}></input>2:Somewhat low</label>
+            <label><input className='RadioButton' type='radio' value = '2' name='opinion_h1n1_vacc_effective' onChange={(event) => onValueChange5(2, event)} checked={selectedOption5 === '2'}></input>Somewhat low</label>
             
-            <label><input className='RadioButton' type='radio' value = '3' name='opinion_h1n1_vacc_effective' onChange={(event) => onValueChange5(2, event)} checked={selectedOption5 === '3'}></input>3:Don't know</label>
+            <label><input className='RadioButton' type='radio' value = '3' name='opinion_h1n1_vacc_effective' onChange={(event) => onValueChange5(2, event)} checked={selectedOption5 === '3'}></input>Don't know</label>
             
-            <label><input className='RadioButton' type='radio' value = '4' name='opinion_h1n1_vacc_effective' onChange={(event) => onValueChange5(2, event)} checked={selectedOption5 === '4'}></input>4:Somewhat high</label>
+            <label><input className='RadioButton' type='radio' value = '4' name='opinion_h1n1_vacc_effective' onChange={(event) => onValueChange5(2, event)} checked={selectedOption5 === '4'}></input>Somewhat high</label>
    
-            <label><input className='RadioButton' type='radio' value = '5' name='opinion_h1n1_vacc_effective' onChange={(event) => onValueChange5(2, event)} checked={selectedOption5 === '5'}></input>5:Very High</label>
+            <label><input className='RadioButton' type='radio' value = '5' name='opinion_h1n1_vacc_effective' onChange={(event) => onValueChange5(2, event)} checked={selectedOption5 === '5'}></input>Very High</label>
           </div>
         </div>
 
         <div className='ModelInput'>
-          <h3>health_insurance: Do you have health insurance?</h3>
+          <h3>Do you have health insurance?</h3>
           <div className='RadioButtons'>
-            <label><input className='RadioButton' type='radio' value = '0' name='health_insurance' onChange={(event) => onValueChange6(8, event)} checked={selectedOption6 === '0'}></input>1:No</label>
+            <label><input className='RadioButton' type='radio' value = '0' name='health_insurance' onChange={(event) => onValueChange6(8, event)} checked={selectedOption6 === '0'}></input>No</label>
 
-            <label><input className='RadioButton' type='radio' value = '1' name='health_insurance' onChange={(event) => onValueChange6(8, event)} checked={selectedOption6 === '1'}></input>2:Yes</label>
+            <label><input className='RadioButton' type='radio' value = '1' name='health_insurance' onChange={(event) => onValueChange6(8, event)} checked={selectedOption6 === '1'}></input>Yes</label>
           </div>
         </div>
 
         <div className='ModelInput'>
-          <h3>doctor_recc_h1n1: Has a doctor recommended the H1N1 flu vaccine to you?</h3>
+          <h3>Has a doctor recommended the H1N1 flu vaccine to you?</h3>
           <div className='RadioButtons'>
-            <label><input className='RadioButton' type='radio' value = '0' name='doctor_recc_h1n1' onChange={(event) => onValueChange7(0, event)} checked={selectedOption7 === '0'}></input>1:No</label>
+            <label><input className='RadioButton' type='radio' value = '0' name='doctor_recc_h1n1' onChange={(event) => onValueChange7(0, event)} checked={selectedOption7 === '0'}></input>No</label>
             
-            <label><input className='RadioButton' type='radio' value = '1' name='doctor_recc_h1n1' onChange={(event) => onValueChange7(0, event)} checked={selectedOption7 === '1'}></input>2:Yes</label>
+            <label><input className='RadioButton' type='radio' value = '1' name='doctor_recc_h1n1' onChange={(event) => onValueChange7(0, event)} checked={selectedOption7 === '1'}></input>Yes</label>
           </div>
         </div>
 
@@ -194,26 +194,26 @@ function Model1() {
         </div> */}
 
         <div className='ModelInput'>
-          <h3>h1n1_concern: How concerned are you about the H1N1 flu?</h3>
+          <h3>How concerned are you about the H1N1 flu?</h3>
           <div className='RadioButtons'>
-            <label><input className='RadioButton' type='radio' value = '1' name='h1n1_concern' onChange={(event) => onValueChange8(7, event)} checked={selectedOption8 === '1'}></input>1:Very Low</label>
+            <label><input className='RadioButton' type='radio' value = '1' name='h1n1_concern' onChange={(event) => onValueChange8(7, event)} checked={selectedOption8 === '1'}></input>Very Low</label>
             
-            <label><input className='RadioButton' type='radio' value = '2' name='h1n1_concern' onChange={(event) => onValueChange8(7, event)} checked={selectedOption8 === '2'}></input>2:Somewhat low</label>
+            <label><input className='RadioButton' type='radio' value = '2' name='h1n1_concern' onChange={(event) => onValueChange8(7, event)} checked={selectedOption8 === '2'}></input>Somewhat low</label>
             
-            <label><input className='RadioButton' type='radio' value = '3' name='h1n1_concern' onChange={(event) => onValueChange8(7, event)} checked={selectedOption8 === '3'}></input>3:Don't know</label>
+            <label><input className='RadioButton' type='radio' value = '3' name='h1n1_concern' onChange={(event) => onValueChange8(7, event)} checked={selectedOption8 === '3'}></input>Don't know</label>
             
-            <label><input className='RadioButton' type='radio' value = '4' name='h1n1_concern' onChange={(event) => onValueChange8(7, event)} checked={selectedOption8 === '4'}></input>4:Somewhat high</label>
+            <label><input className='RadioButton' type='radio' value = '4' name='h1n1_concern' onChange={(event) => onValueChange8(7, event)} checked={selectedOption8 === '4'}></input>Somewhat high</label>
       
-            <label><input className='RadioButton' type='radio' value = '5' name='h1n1_concern' onChange={(event) => onValueChange8(7, event)} checked={selectedOption8 === '5'}></input>5:Very High</label>
+            <label><input className='RadioButton' type='radio' value = '5' name='h1n1_concern' onChange={(event) => onValueChange8(7, event)} checked={selectedOption8 === '5'}></input>Very High</label>
           </div>
         </div>
 
         <div className='ModelInput'>
-          <h3>health_worker: Are you a healthcare worker?</h3>
+          <h3>Are you a healthcare worker?</h3>
           <div className='RadioButtons'>
-            <label><input className='RadioButton' type='radio' value = '0' name='health_worker' onChange={(event) => onValueChange9(6, event)} checked={selectedOption9 === '0'}></input>1:No</label>
+            <label><input className='RadioButton' type='radio' value = '0' name='health_worker' onChange={(event) => onValueChange9(6, event)} checked={selectedOption9 === '0'}></input>No</label>
 
-            <label><input className='RadioButton' type='radio' value = '1' name='health_worker' onChange={(event) => onValueChange9(6, event)} checked={selectedOption9 === '1'}></input>2:Yes</label>
+            <label><input className='RadioButton' type='radio' value = '1' name='health_worker' onChange={(event) => onValueChange9(6, event)} checked={selectedOption9 === '1'}></input>Yes</label>
           </div>
         </div>
 
@@ -223,17 +223,17 @@ function Model1() {
         </div> */}
 
         <div className='ModelInput'>
-          <h3>h1n1_knowledge: How would you rate your level of knowledge about H1N1 flu?</h3>
+          <h3>How would you rate your level of knowledge about H1N1 flu?</h3>
           <div className='RadioButtons'>
-            <label><input className='RadioButton' type='radio' value = '1' name='h1n1_knowledge' onChange={(event) => onValueChange10(9, event)} checked={selectedOption10 === '1'}></input>1:Very Low</label>
+            <label><input className='RadioButton' type='radio' value = '1' name='h1n1_knowledge' onChange={(event) => onValueChange10(9, event)} checked={selectedOption10 === '1'}></input>Very Low</label>
 
-            <label><input className='RadioButton' type='radio' value = '2' name='h1n1_knowledge' onChange={(event) => onValueChange10(9, event)} checked={selectedOption10 === '2'}></input>2:Somewhat low</label>
+            <label><input className='RadioButton' type='radio' value = '2' name='h1n1_knowledge' onChange={(event) => onValueChange10(9, event)} checked={selectedOption10 === '2'}></input>Somewhat low</label>
             
-            <label><input className='RadioButton' type='radio' value = '3' name='h1n1_knowledge' onChange={(event) => onValueChange10(9, event)} checked={selectedOption10 === '3'}></input>3:Don't know</label>
+            <label><input className='RadioButton' type='radio' value = '3' name='h1n1_knowledge' onChange={(event) => onValueChange10(9, event)} checked={selectedOption10 === '3'}></input>Don't know</label>
             
-            <label><input className='RadioButton' type='radio' value = '4' name='h1n1_knowledge' onChange={(event) => onValueChange10(9, event)} checked={selectedOption10 === '4'}></input>4:Somewhat high</label>
+            <label><input className='RadioButton' type='radio' value = '4' name='h1n1_knowledge' onChange={(event) => onValueChange10(9, event)} checked={selectedOption10 === '4'}></input>Somewhat high</label>
 
-            <label><input className='RadioButton' type='radio' value = '5' name='h1n1_knowledge' onChange={(event) => onValueChange10(9, event)} checked={selectedOption10 === '5'}></input>5:Very High</label>
+            <label><input className='RadioButton' type='radio' value = '5' name='h1n1_knowledge' onChange={(event) => onValueChange10(9, event)} checked={selectedOption10 === '5'}></input>Very High</label>
           </div>
         </div>
       
