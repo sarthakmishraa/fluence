@@ -7,6 +7,7 @@ import About from './About';
 import Visualisations from './Visualisations';
 import Methodology from './Methodology';
 import Model1 from './Model1';
+import Model2 from './Model2';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
@@ -25,6 +26,7 @@ function App() {
           <Route path='/visualisations' element={<Visualisations/>}></Route>
 
           <Route path='/model1' element={<Model1/>}></Route>
+          <Route path='/model2' element={<Model2/>}></Route>
         </Routes>
         <Footer></Footer>
       </div>

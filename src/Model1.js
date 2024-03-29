@@ -70,13 +70,21 @@ function Model1() {
     e.preventDefault();
     setValues(values);
     try {
-      const response = await fetch('https://fluence-backend.onrender.com/api/process_input', {
+      const response = await fetch('https://fluence-backend.onrender.com/api/process_input_h1n1', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({input: values}),
       });
+
+      // const response = await fetch('http://localhost:3001/api/process_input_h1n1', {
+      //   method: 'POST',
+      //   headers: {
+      //     'Content-Type': 'application/json',
+      //   },
+      //   body: JSON.stringify({input: values}),
+      // });
 
       const data = await response.json();
       // setResponse(data.prediction);

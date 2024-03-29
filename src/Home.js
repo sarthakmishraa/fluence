@@ -12,7 +12,7 @@ function Home() {
       <h2>Which vaccine intake do you want to predict?</h2>
       <div className="ModelButtons">
         <Link to="/model1"><button className="ModelButton">H1N1 Prediction</button></Link>
-        <button className="ModelButton">Seasonal Prediction</button>
+        <Link to="/model2"><button className="ModelButton">Seasonal Prediction</button></Link>
       </div>
     </div>
   );
