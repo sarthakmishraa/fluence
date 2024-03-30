@@ -16,13 +16,7 @@ function Navbar() {
           <Link to="/visualisations">Visualisations</Link>
           <Link to="/methodology">Methodology</Link>
           <Link to="/about">About</Link>
-        </nav>
-      </div>
-
-      <div className="NavbarRight">
-        <nav>
-          <button>Log In</button>
-          <button>Sign Up</button>
+          <Link to="https://adiimated.github.io/portfolio/#contact" target="_blank">Contact Us</Link>
         </nav>
       </div>
     </div>

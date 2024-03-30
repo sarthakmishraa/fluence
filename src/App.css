@@ -1,6 +1,6 @@
 /*
 Primary: #000000 
-Secondary: #5271ff
+Secondary: #2c5a92
 */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
@@ -9,7 +9,7 @@ body {
     user-select: none;
     font-family: Open Sans;
     background-color: lightgoldenrodyellow;
-    color: #5271ff;
+    color: #2C5A92;
     padding-left: 300px;
     padding-right: 300px;
 }
@@ -27,6 +27,7 @@ code {
     font-weight: 600;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0 4px 0 -1px black;
 }
 
 .Navbar a {
@@ -36,12 +37,12 @@ code {
 }
 
 .Navbar a:hover {
-    /* text-shadow: 0 0 2px #5271ff; */
+    /* text-shadow: 0 0 2px #2c5a92; */
     padding: 10px;
     font-size: x-large;
     border-radius: 10px;
     color: lightgoldenrodyellow;
-    background-color: #5271ff;
+    background-color: #2c5a92;
     transition: 0.2s;
 }
 
@@ -55,31 +56,11 @@ code {
     margin-top: 50px;
 }
 
-.NavbarRight {
-    margin-top: 75px;
-}
-
-.NavbarRight button {
-    padding: 5px;
-    border-radius: 10px;
-    font-size: 20px;
-    margin-left: 20px;
-    color: lightgoldenrodyellow;
-    background-color: #5271ff;
-    cursor: pointer;
-}
-
-.NavbarRight button:hover {
-    color: #5271ff;
-    background-color: lightgoldenrodyellow;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
 /* Home page styling */
 
 .HomeContentHeading {
-    color: #5271ff;
+    text-align: center;
+    color: #2c5a92;
     font-size: xx-large;
 }
 
@@ -89,8 +70,15 @@ code {
     font-weight: 600;
 }
 
+.HomeBox {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
 .ModelButtons {
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     margin-left: 200px;
     margin-right: 200px;
     display: flex;
@@ -98,17 +86,17 @@ code {
 }
 
 .ModelButton{
-    padding: 5px;
+    padding: 15px;
     border-radius: 10px;
     font-size: 30px;
     margin-left: 20px;
     color: lightgoldenrodyellow;
-    background-color: #5271ff;
+    background-color: #2c5a92;
     cursor: pointer;
 }
 
 .ModelButton:hover {
-    color: #5271ff;
+    color: #2c5a92;
     background-color: lightgoldenrodyellow;
     cursor: pointer;
     transition: 0.2s;
@@ -124,6 +112,49 @@ code {
     font-weight: 600;
 }
 
+/* Methodology Page styling */
+
+.MethodologyTables {
+    color: black;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+
+.MethodologyTables table, th, tr {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+.MethodologyHeading {
+    text-align: center;
+    color: #2c5a92;
+    font-size: xx-large;
+}
+
+.MethodologyContentHeading {
+    color: black;
+    font-size: x-large;
+    font-weight: 600;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.MethodologyContent {
+    color: black;
+    font-size: large;
+    font-weight: 600;
+}
+
+.MethodologyContentSubHeading {
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+}
+
 /* About page styling */
 
 .About {
@@ -134,6 +165,14 @@ code {
     justify-content: space-between;
 }
 
+.Profile {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .ProfilePic1, .ProfilePic2 {
     width: 200px;
     height: 200px;
@@ -141,7 +180,7 @@ code {
     background-position: center;
     border-radius: 25%;
     margin: 20px auto;
-    border: 3px solid #5271ff;
+    border: 3px solid #2c5a92;
 }
 
 .ProfilePic1 {
@@ -173,13 +212,13 @@ code {
 
     box-sizing: border-box;
     padding: 30px 20px;
-    border: 5px solid #5271ff;
+    border: 5px solid #2c5a92;
     border-radius: 20px;
 }
 
 .ModelInput {
     margin-top: 50px;
-    border-top: 5px solid #5271ff;
+    border-top: 5px solid #2c5a92;
 }
 
 .ModelInputs input {
@@ -287,8 +326,8 @@ hr {
 /* Footer styling */
 
 .Footer {
-    border-top: 2px solid black;
-    margin-top: 50px;
+    border-top: 3px solid black;
+    margin-top: 60px;
     position: relative;
     display: flex;
     justify-content: space-between;

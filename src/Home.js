@@ -9,10 +9,13 @@ function Home() {
         <h2 className="HomeContentHeading">Welcome to Fluence</h2>
         <p className="HomeContent">Discover Fluence, where data science meets public health to tackle the challenge of vaccination. Inspired by the H1N1 pandemic response, our project uses advanced machine learning to predict vaccination statuses based on demographics, health behaviors, and opinions. Our goal is to uncover insights that enhance vaccine uptake and inform public health strategies. Whether you're in healthcare, research, or simply interested in public health dynamics, Fluence offers a unique perspective on the factors influencing vaccination decisions. Join us on a journey to better health outcomes through the power of data.</p>
       </div>
-      <h2>Which vaccine intake do you want to predict?</h2>
-      <div className="ModelButtons">
-        <Link to="/model1"><button className="ModelButton">H1N1 Prediction</button></Link>
-        <Link to="/model2"><button className="ModelButton">Seasonal Prediction</button></Link>
+
+      <div className='HomeBox'>
+        <h2>Which vaccine intake do you want to predict?</h2>
+        <div className="ModelButtons">
+          <Link to="/model1"><button className="ModelButton">H1N1 Prediction</button></Link>
+          <Link to="/model2"><button className="ModelButton">Seasonal Prediction</button></Link>
+        </div>
       </div>
     </div>
   );
