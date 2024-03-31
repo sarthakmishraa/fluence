@@ -6,6 +6,7 @@ function Model2() {
 
   const [values, setValues] = useState([""]);
   const [response, setResponse] = useState([""]);
+  const [flag, setFlag] = useState(false);
   const [selectedOption1, setSelectedOption1] = useState([""]);
   const [selectedOption2, setSelectedOption2] = useState([""]);
   const [selectedOption3, setSelectedOption3] = useState([""]);
@@ -74,6 +75,7 @@ function Model2() {
 
   const handleSubmit = async(e) => {
     e.preventDefault();
+    setFlag(true);
     setValues(values);
     try {
       const response = await fetch('https://fluence-backend.onrender.com/api/process_input_seasonal', {
@@ -103,6 +105,7 @@ function Model2() {
       else {
         setResponse("Some error occured");
       }
+      setFlag(false);
     }
     catch (error) {
       console.error("Error: ", error);
@@ -249,7 +252,9 @@ function Model2() {
           <button className="ModelButton">Predict</button>
         </div>
 
-        {response && <h3>{response}</h3>}
+        <div className='ModelOutput'>
+          {flag && response.length===1 ? (<h3>Please wait for response</h3>) : (<h3>{response}</h3>)}
+        </div>
         
       </form>
 

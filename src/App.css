@@ -238,6 +238,13 @@ code {
     text-align: center;
 }
 
+.ModelOutput {
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-top: 20px;
+}
+
 /* Visualization Styling */
 
 .VisualisationsHeading {
