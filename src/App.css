@@ -18,6 +18,28 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+@media screen and (max-width: 1080px) {
+    .Navbar .NavbarLeftItems a {
+        display: block;
+        float: none;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 1515px) {
+    .ModelInputs .RadioButtons label {
+        display: block;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 1430px) {
+    body {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
 /* Navbar styling */
 
 .Navbar {
@@ -25,9 +47,10 @@ code {
     padding-bottom: 30px;
     font-size: x-large;
     font-weight: 600;
+    box-shadow: 0 4px 0 -1px black;
+    position: relative;
     display: flex;
     justify-content: space-between;
-    box-shadow: 0 4px 0 -1px black;
 }
 
 .Navbar a {
@@ -44,12 +67,6 @@ code {
     color: lightgoldenrodyellow;
     background-color: #2c5a92;
     transition: 0.2s;
-}
-
-.NavbarLeft {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
 }
 
 .NavbarLeftItems {
@@ -74,15 +91,13 @@ code {
     border: 3px solid black;
     border-radius: 10px;
     padding: 20px;
+    text-align: center;
 }
 
 .ModelButtons {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 200px;
-    margin-right: 200px;
     display: flex;
     justify-content: space-between;
+    margin: 30px 100px;
 }
 
 .ModelButton{
