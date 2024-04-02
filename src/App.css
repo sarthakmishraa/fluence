@@ -40,6 +40,18 @@ code {
     }
 }
 
+@media screen and (max-width: 705px) {
+    .Home .HomeBox .ModelButtons {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .Home .HomeBox .ModelButtons a {
+    display: block;
+    margin: 5px 5px;
+    }
+}
+
 /* Navbar styling */
 
 .Navbar {
